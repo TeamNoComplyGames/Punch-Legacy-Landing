@@ -11,7 +11,7 @@ angular.module('punchLegacyLandingApp')
   .controller('MainCtrl', function ($scope) {
       //Code goes here
 
-      $scope.myInterval = 3500;
+      $scope.myInterval = 0;
       $scope.slides = [];
 
       $scope.slides.push({text: 'cats!', image: '../images/alpha5.gif'});
