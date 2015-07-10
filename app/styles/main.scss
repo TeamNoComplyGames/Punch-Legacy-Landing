@@ -84,6 +84,9 @@ body {
     padding: 5%;
 }
 
+/* Angular boot strap require ment */
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
