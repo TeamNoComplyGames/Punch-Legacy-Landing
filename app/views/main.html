@@ -5,29 +5,77 @@
 <div class = "card grey darken-3 z-depth-5">
     <h1 class="center-align red-text darken-4">Super Punch Legacy</h1>
     <!-- Our div to display inline -->
-    <div class = "headline valign-wrapper">
-        <h3 class = "white-text" style = "float: left; display: inline-block; width: 50%;">A fight for peace is a fight nonetheless...</h3>
+    <div class = "headline">
+        <h3 class = "white-text center-align">A fight for peace is a fight nonetheless...</h3>
+        <br>
+        <br>
         <!-- Youtube video -->
-        <h5 class = "white-text center-align" style = "float: right; display: inline-block; width: 50%;">Video coming soon!</h5>
+        <h5 class = "white-text center-align">Video coming soon!</h5>
     </div>
 
     <!-- call to action button -->
     <div class = "center-align">
-    <button style = "font-size: 1.25em" class="waves-effect waves-light btn-large red darken-4 white-text animated pulse infinite z-depth-3">Follow The Development!!!</button>
+    <button style = "font-size: 2vmin" class="waves-effect waves-light btn-large red darken-4 white-text animated pulse infinite z-depth-3">Follow The Development!!!</button>
     <br>
     <br>
     <br>
     </div>
 </div>
 
+<!-- Reviews and stuff Eventually -->
+
 <!-- Screenshots/GamePlay Gifs -->
-<div style="height: 550px" disable-animation="true">
-  <carousel class = "z-depth-5" interval="myInterval">
-    <slide ng-repeat="slide in slides" active="slide.active">
-      <img ng-src="{{slide.image}}" style="margin:auto;" width = "1000px" height = "500px">
-      <div class="carousel-caption">
-      </div>
-    </slide>
-  </carousel>
+<div class = "card grey darken-3 z-depth-5">
+    <h1 class="center-align red-text darken-4">Screenshots & Gameplay Gifs</h1>
+    <div style="height: 550px; padding-left: 15px; padding-right: 15px;" disable-animation="true">
+      <carousel class = "z-depth-3" interval="myInterval">
+        <slide ng-repeat="slide in slides" active="slide.active">
+          <img ng-src="{{slide.image}}" style="margin:auto;" width = "1000px" height = "500px">
+          <div class="carousel-caption">
+          </div>
+        </slide>
+      </carousel>
+    </div>
 </div>
+
+<!-- Features -->
+<div class = "card grey darken-3 z-depth-5">
+    <h1 class="center-align red-text darken-4">Features</h1>
+    <br>
+    <br>
+
+    <h2 class="center-align red-text darken-4">Punching!!!</h2>
+    <h5 class="center-align white-text">Punch an endless group of enemies for survival and to fufill the legacy!</h5>
+
+    <br>
+
+    <h2 class="center-align red-text darken-4">RPG Elements!!!</h2>
+    <h5 class="center-align white-text">Level up and grow stronger as you defeat enemies!</h5>
+
+    <br>
+
+    <h2 class="center-align red-text darken-4">Intense Action!!!</h2>
+    <h5 class="center-align white-text">Enemies fly back when you punch them, they explode when they are defeated, and screenshake makes everything feel awesome!</h5>
+
+    <br>
+
+    <h2 class="center-align red-text darken-4">Pixel Art!!!</h2>
+    <h5 class="center-align white-text">Over 15 powerful enemies, and multiple (semi-randomly generated) enviorenments!!!</h5>
+
+    <br>
+
+    <h2 class="center-align red-text darken-4">Amazing Sound!!!</h2>
+    <h5 class="center-align white-text">Music and Sound Effects by Aviscerall, who has even been recognized on
+        <a href = "http://kotaku.com/earthbound-rap-mashup-is-appropriately-odd-1668296080">Kotaku</a>
+        and <a href = "http://www.gamemusic4all.com/blog/2015/5/12/aviscerall-releases-video-game-hip-hop-remix-album-nostalgia-infinite">Game Music 4 All</a>
+        !</h5>
+
+    <br>
+</div>
+
+
+<br>
+<br>
+<br>
+<br>
 </div>
