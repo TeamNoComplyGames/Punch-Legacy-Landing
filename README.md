@@ -1,13 +1,7 @@
-# punch-legacy-landing
+# Punch Legacy Landing Page
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.11.1.
+This is a simple Landing page I made in quite a rush for the game Super Punch Legacy found at the following repo:
 
-## Build & development
 
-Run `grunt` for building and `grunt serve` for preview.
 
-## Testing
-
-Running `grunt test` will run the unit tests with karma.
-# Punch-Legacy-Landing
+https://github.com/torch2424/Punch-Legacy
