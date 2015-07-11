@@ -94,12 +94,22 @@ body {
 .gameFont {
     font-family: GameFont;
     -webkit-text-stroke: 1px black;
-    text-shadow:
-    3px 3px 0 #000,
-  -1px -1px 0 #000,
-   1px -1px 0 #000,
-   -1px 1px 0 #000,
-    1px 1px 0 #000;
+    font-weight: lighter;
+}
+
+/* Mobile style fixes */
+.container {
+  width: 100%;
+}
+
+.imgSlider {
+    height: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+h1 {
+    font-size: 10vmin;
 }
 
 /* Angular boot strap require ment */
@@ -109,6 +119,23 @@ body {
 @media screen and (min-width: 768px) {
   .container {
     max-width: 80%;
+  }
+
+  .imgSlider {
+      height: 550px;
+      padding-left: 15px;
+      padding-right: 15px;
+  }
+
+  .gameFont {
+      font-family: GameFont;
+      -webkit-text-stroke: 1px black;
+      text-shadow:
+      3px 3px 0 #000,
+    -1px -1px 0 #000,
+     1px -1px 0 #000,
+     -1px 1px 0 #000,
+      1px 1px 0 #000;
   }
 
   /* Remove the padding we set earlier */

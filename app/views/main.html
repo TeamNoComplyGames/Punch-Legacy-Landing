@@ -17,7 +17,7 @@
         <div class = "center-align">
         <button style = "font-size: 2vmin"
         class="waves-effect waves-light btn-large red darken-4 white-text animated pulse infinite z-depth-3">
-        <a class = "white-text gameFont"
+        <a class = "white-text gameFont noDecoration"
         href = "http://www.nocomplygames.com/">
         Follow The Development!!!
         </a>
@@ -32,8 +32,8 @@
 
     <!-- Screenshots/GamePlay Gifs -->
     <div class = "card grey darken-3 z-depth-5">
-        <h1 class="center-align red-text darken-4">Screenshots & Gameplay Gifs</h1>
-        <div style="height: 550px; padding-left: 15px; padding-right: 15px;" disable-animation="true">
+        <h1 class="center-align red-text darken-4">Screen Shots & Game Play Gifs</h1>
+        <div class="imgSlider" disable-animation="true">
           <carousel class = "z-depth-3" interval="myInterval">
             <slide ng-repeat="slide in slides" active="slide.active">
               <img ng-src="{{slide.image}}" style="margin:auto;" width = "1000px" height = "500px">
