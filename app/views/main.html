@@ -6,7 +6,7 @@
         <h1 class="center-align red-text darken-4">Super Punch Legacy</h1>
         <!-- Our div to display inline -->
         <div class = "headline">
-            <h3 class = "white-text center-align">A fight for peace is a fight nonetheless...</h3>
+            <h4 class = "white-text center-align">A fight for peace is a fight nonetheless . . .</h4>
             <br>
             <br>
             <!-- Youtube video -->
@@ -15,13 +15,14 @@
 
         <!-- call to action button -->
         <div class = "center-align">
-        <button style = "font-size: 2vmin"
-        class="waves-effect waves-light btn-large red darken-4 white-text animated pulse infinite z-depth-3">
-        <a class = "white-text gameFont noDecoration"
-        href = "http://www.nocomplygames.com/">
+        <a href = "http://www.nocomplygames.com/">
+        <button
+        class="ctaButton waves-effect waves-light red darken-4 white-text animated pulse infinite z-depth-3">
+        <div class = "white-text gameFont buttonText">
         Follow The Development!!!
-        </a>
+        </div>
         </button>
+    </a>
         <br>
         <br>
         <br>
@@ -36,7 +37,7 @@
         <div class="imgSlider" disable-animation="true">
           <carousel class = "z-depth-3" interval="myInterval">
             <slide ng-repeat="slide in slides" active="slide.active">
-              <img ng-src="{{slide.image}}" style="margin:auto;" width = "1000px" height = "500px">
+              <img class = "slide" ng-src="{{slide.image}}" style="margin:auto;">
               <div class="carousel-caption">
               </div>
             </slide>
@@ -72,26 +73,29 @@
 
         <h2 class="center-align red-text darken-4">Amazing Sound!!!</h2>
         <h5 class="center-align white-text">Music and Sound Effects by Aviscerall, who has even been recognized on
-            <a href = "http://kotaku.com/earthbound-rap-mashup-is-appropriately-odd-1668296080">Kotaku</a>
-            and <a href = "http://www.gamemusic4all.com/blog/2015/5/12/aviscerall-releases-video-game-hip-hop-remix-album-nostalgia-infinite">Game Music 4 All</a>
+            <a class = "gameFont" href = "http://kotaku.com/earthbound-rap-mashup-is-appropriately-odd-1668296080">Kotaku</a>
+            and <a class = "gameFont" href = "http://www.gamemusic4all.com/blog/2015/5/12/aviscerall-releases-video-game-hip-hop-remix-album-nostalgia-infinite">Game Music 4 All</a>
             !</h5>
 
         <br>
     </div>
 
-    <!-- Features -->
+    <!-- Contact -->
     <div class = "card grey darken-3 z-depth-5">
         <h1 class="center-align red-text darken-4">Contact</h1>
-        <br>
         <br>
 
         <h5 class="center-align white-text">
         Comments, Questions, Concerns? Or maybe we're lucky enough to be featured on your blog?
         <br>
         <br>
-        Please send an email to kevin@nocomplygames.com or mention us in a
-        <a href = "https://twitter.com/TeamNoComply">tweet</a>
+        Please send an email to
+        <a style = "word-wrap:break-word" href = "mailto:kevin@nocomplygames.com">kevin@nocomplygames.com</a>
+         or mention us in a
+        <a class = "gameFont" href = "https://twitter.com/TeamNoComply">tweet</a>
         !</h5>
+
+        <br>
 
     </div>
 

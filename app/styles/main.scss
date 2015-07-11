@@ -94,7 +94,14 @@ body {
 .gameFont {
     font-family: GameFont;
     -webkit-text-stroke: 1px black;
-    font-weight: lighter;
+}
+
+.ctaButton {
+    width: 85%;
+    border-style: none;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 2px;
 }
 
 /* Mobile style fixes */
@@ -102,14 +109,44 @@ body {
   width: 100%;
 }
 
+.slide {
+    height: 25%;
+    width: 95%;
+}
+
 .imgSlider {
-    height: 200px;
+    height: 30%;
     padding-left: 15px;
     padding-right: 15px;
 }
 
 h1 {
     font-size: 10vmin;
+}
+
+h2 {
+    font-size: 8.5vmin;
+}
+
+h3 {
+    font-size: 8vmin;
+}
+
+h4 {
+    font-size: 7.5vmin;
+}
+
+h5 {
+    font-size: 6vmin;
+}
+
+h6 {
+    font-size: 5.5vmin;
+}
+
+.buttonText {
+    font-size: 5vmin;
+    word-wrap: break-word;
 }
 
 /* Angular boot strap require ment */
@@ -122,9 +159,14 @@ h1 {
   }
 
   .imgSlider {
-      height: 550px;
+      height: 55%;
       padding-left: 15px;
       padding-right: 15px;
+  }
+
+  .slide {
+      height: 50%;
+      width: 95%;
   }
 
   .gameFont {
@@ -136,6 +178,35 @@ h1 {
      1px -1px 0 #000,
      -1px 1px 0 #000,
       1px 1px 0 #000;
+  }
+
+  h1 {
+      font-size: 8vmin;
+  }
+
+  h2 {
+      font-size: 7vmin;
+  }
+
+  h3 {
+      font-size: 6vmin;
+  }
+
+  h4 {
+      font-size: 5vmin;
+  }
+
+  h5 {
+      font-size: 4vmin;
+  }
+
+  h6 {
+      font-size: 3vmin;
+  }
+
+  .buttonText {
+      font-size: 3.5vmin;
+      word-wrap: break-word;
   }
 
   /* Remove the padding we set earlier */
